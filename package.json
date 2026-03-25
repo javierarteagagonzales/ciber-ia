@@ -1,0 +1,16 @@
+{
+  "name": "ciber-ia-presentation",
+  "version": "1.0.0",
+  "description": "Slidev presentation de ciberseguridad, red team e inteligencia artificial",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export --pdf",
+    "deploy": "slidev export --base /ciber-ia/ --output dist"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.41.1",
+    "@slidev/theme-default": "^0.41.1"
+  }
+}
